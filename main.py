@@ -23,7 +23,7 @@ def parse_file(path: pathlib.Path, package_set: set, import_set: set, content: l
         import_set.add(line)
 
       # Its a class definition, remove the visibility modifier
-      elif (class_definition_match := re.match(r"\s*(public|private|protected)\s+((abstract\s+)?(class|enum).*\n)", line)):
+      elif (class_definition_match := re.match(r"\s*(public|private|protected)\s+((abstract\s+)?(class|enum|interface).*\n)", line)):
         content.append(class_definition_match.groups()[1])
 
       # Anythin else just add to content if not whitespace
