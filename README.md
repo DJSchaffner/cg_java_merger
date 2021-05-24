@@ -3,7 +3,7 @@
 This is a very basic parser that will parse a Java project into a single file for websites like CodinGame.  
 It will recursively find all java files in the java project and insert everything into a single file in the order the files are found.
 
-No guarantess this is bug free and respects all possible file structures in Rust but as of now this works for my purposes.  
+No guarantess this is bug free and respects all possible file structures in Java but as of now this works for my purposes.  
 Feel free to open a ticket with feature requests or bug reports if you have / find any.
 
 # Usage
