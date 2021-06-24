@@ -8,7 +8,7 @@ Feel free to open a ticket with feature requests or bug reports if you have / fi
 
 # Usage
 
-Call cg_java_merger.exe <PathToProject>
+Call cg_java_merger.exe \<PathToProject>  
 ex: ./ cg_java_merger.exe C:/myjavaproject/
   
 Example `tasks.json` file for VSCode:
